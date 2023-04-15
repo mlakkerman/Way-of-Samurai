@@ -4,9 +4,11 @@
 }
 
 .item {
-    color: rgb(217, 213, 236);
+    color: rgb(67, 33, 240);
+    text-decoration: none;
 }
 
-.item.active {
-    color: aqua;
+.active {
+    color: gold;
+    text-decoration: none;
 }
