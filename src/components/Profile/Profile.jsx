@@ -1,16 +1,12 @@
 import MyPosts from './MyPosts/MyPosts';
 import s from './Profile.module.css'
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
   return (
     <div>
-      <div>
-        <img className={s.img} src="https://get.wallhere.com/photo/galaxy-space-nebula-atmosphere-universe-astronomy-outer-space-astronomical-object-96247.jpg" alt="" />
-      </div>
-      <div className={s.item}>
-        ava+description
-      </div>
-      <MyPosts/>
+      <ProfileInfo />
+      <MyPosts />
     </div>
   )
 }

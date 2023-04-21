@@ -1,0 +1,9 @@
+.dialog {
+    padding: 10px;
+    text-decoration: none;
+    color: aqua;
+    &:active {
+        color: gold;
+        text-decoration: none;
+    }
+}
